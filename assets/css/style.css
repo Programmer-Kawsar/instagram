@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+p {
+  margin: 0;
+}
+.main-container {
+  max-width: 1280px;
+}
+
+/* left side bar start */
+.left-sidebar {
+  border-right: 1px solid #dbdbdb;
+}
+
+.menu-item a {
+  font-size: 16px !important;
+  padding: 12px 0;
+}
+
+.menu-item i {
+  font-size: 23px;
+}
+
+.menu-item svg {
+  margin-top: -6px;
+}
+
+.svg-padding {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+.menu-item:hover {
+  background: #f2f2f2 !important;
+  border-radius: 7px;
+}
+/* Assuming you have elements with the class "menu-item" containing an <i> tag */
+.menu-item:hover i {
+  transform: scale(1.1) !important;
+  transition: 0.3s;
+}
+
+.menu-item img {
+  max-width: 100%;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* left side bar end */
+
+/* main body start */
+
+/*top public profile start */
+.top-image img {
+  max-width: 100%;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 2px;
+}
+.top-image .name {
+  font-size: 12px;
+  margin-top: 4px;
+}
+/* top public profile end */
+
+/* main body post start */
+
+.post-start {
+  padding: 0 60px;
+}
+.post-item-top-details img {
+  max-width: 100%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.post-item-top-details .name {
+  font-size: 15px;
+  font-weight: 600;
+}
+.post-item-top-details svg {
+  margin-top: -6px;
+}
+.post-item-top-details .time-ago {
+  font-size: 14px;
+  color: #737373;
+}
+
+.post-main-image img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+.post-item-bottom-details i:hover {
+  color: #8e8e8e !important;
+}
+.post-item-bottom-details i {
+  font-size: 24px;
+}
+
+.p-color {
+  color: #8e8e8e !important;
+}
+.likes-content input {
+  outline: none;
+  font-size: 14px;
+}
+.likes-content button {
+  outline: none;
+  font-size: 14px;
+}
+/* main body post end */
+/* right sidebar start */
+.right-sidebar img {
+  max-width: 100%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.right-sidebar .username {
+  font-size: 15px;
+  font-weight: 600;
+}
+.right-sidebar .profilename {
+  font-size: 13px;
+  margin-top: -3px;
+}
+.right-sidebar h6 {
+  font-size: 13px !important;
+}
+.right-sidebar h6 {
+  color: #0095f6;
+}
+.right-sidebar h6:hover {
+  color: #222;
+}
+
+/* right sidebar end */
